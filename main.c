@@ -10,7 +10,6 @@ void quickSort(int arr[], int first, int last);
 int main(){
     int n; // Size of the array
     int max_value; // Maximum possible element in the array
-    int x;
 
     printf("Enter the size of the array:");
     scanf("%d", &n);
@@ -40,7 +39,7 @@ int main(){
         printf("%d ", array[i]);
     }
 
-    
+
     return 0;
 }
 
